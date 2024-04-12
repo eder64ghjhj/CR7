@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: space-between
+
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    width: 100%;
+    min-width:20vw ;
+    min-height:20vh ;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+.yellow{
+    background-color:yellow;
+}
+.red{
+    background-color:red ;
+}
+.green{
+    background-color:green ;
+}
+.blue{
+    background-color: blue;
+}
+@media only screen and (max-width: 768px){
+    .box {                                    
+        width: 100%;
+    }
+}
