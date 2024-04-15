@@ -8,8 +8,8 @@ body{
     flex-wrap: wrap;
     justify-content:center ;
     width: 100%;
-    min-width:20vw ;
-    min-height:20vh ;
+    width:20vw ;
+    height:20vh ;
     transition: 0.5s;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace, sans-serif;
@@ -31,3 +31,9 @@ body{
         width: 100%;
     }
 }
+.box:hover{
+transform: scale(1.1);
+box-shadow: 20px 20px 20px blue;
+border-radius: 15px;
+}
+
